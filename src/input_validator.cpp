@@ -5,11 +5,11 @@
 #include "../include/input_validator.h"
 
 void CounterInputValidator::add_validator(std::unique_ptr <StringCharValidator> validator) {
-    validators.push_back(std::move(validator));
+    validators_.push_back(std::move(validator));
 }
 
 void CounterInputValidator::validate(const std::string_view &str, const char &ch) {
-    for(auto const & validator : validators) {
+    for(auto const & validator : validators_) {
         validator->validate(str,ch);
     }
 }
