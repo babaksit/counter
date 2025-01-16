@@ -1,5 +1,5 @@
-# counter
-
+# Intro
+* An interview small project
 # Requirements
 * A C++ compiler that supports C++17 or later
 * CMake version 3.10 or later
