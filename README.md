@@ -1,5 +1,5 @@
 # Intro
-* An interview small project
+* An interview small project to count number of specific characters in the string
 # Requirements
 * A C++ compiler that supports C++17 or later
 * CMake version 3.10 or later
